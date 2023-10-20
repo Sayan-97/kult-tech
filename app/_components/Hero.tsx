@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Button from "@/components/ui/Button";
 import Image from "next/image";
@@ -10,14 +10,20 @@ export default function Hero() {
       className="relative w-full min-h-screen bg-cover flex items-center -z-20 overflow-hidden"
       style={{ backgroundImage: `url(${"/imgs/bg-stars.png"})` }}
     >
-      <div className="absolute inset-0">
+      <motion.div
+        initial={{ y: 2, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.4 }}
+        viewport={{ once: true }}
+        className="absolute inset-0"
+      >
         <Image
           src={"/imgs/hero-bricks.png"}
           alt="img"
           fill
           className="object-cover"
         />
-      </div>
+      </motion.div>
       <motion.div
         initial={{ y: 2, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

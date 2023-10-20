@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       // colors
       colors: {
+        'secondaryColor': '#C528C3',
         'textDarkGrey': '#8A8A8A',
       },
       // gradient colors

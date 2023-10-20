@@ -45,3 +45,29 @@ h6 {
 .container {
   @apply w-11/12 lg:w-10/12 3xl:w-8/12 mx-auto;
 }
+
+.services__cards{
+  @apply border border-secondaryColor rounded-[8px_100px_8px_40px]
+}
+
+.my-custom-pagination{
+  @apply inline-flex justify-center mt-12
+}
+
+.my-custom-pagination .swiper-pagination-bullet {
+  @apply w-[10px] h-[10px] bg-secondaryColor
+}
+
+.my-custom-pagination .swiper-pagination-bullet-active {
+  @apply bg-secondaryColor
+}
+
+.banner-pagination{
+  @apply inline-flex justify-center mt-12
+}
+
+.banner-pagination .swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-text);
+}
