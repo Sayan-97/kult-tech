@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { outfit, syne } from "./fonts";
 import "./globals.css";
 
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Kult Technologies",
@@ -19,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${outfit.variable} ${syne.variable}`}>
         <Header />
         <main>{children}</main>
         <Footer />

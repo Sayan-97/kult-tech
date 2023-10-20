@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ======>> SCROLL BAR <<====== */
+::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #5416e9 0%, #c528c3 100%);
+  border-radius: 4px;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000f;
+}
+
+html {
+  background: url("/imgs/BackgroundDots.png"), #00000f;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  @apply relative w-full min-h-screen flex flex-col overflow-x-hidden scroll-smooth text-base text-white font-normal font-outfit;
+}
+
+main {
+  @apply flex-grow
+}
