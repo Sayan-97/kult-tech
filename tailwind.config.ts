@@ -9,6 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       // colors
+      colors: {
+        'textDarkGrey': '#8A8A8A',
+      },
       // gradient colors
       backgroundImage: {
         'primaryGradient': 'linear-gradient(90deg, #5416E9 0%, #C528C3 100%)',

@@ -54,7 +54,7 @@ export default function Header() {
     <header
       className={`fixed inset-x-0 top-0 z-40 ${
         navAtTop
-          ? "py-6 max-md:bg-[#5416E9] max-md:bg-opacity-20 max-md:backdrop-blur-xl max-md:shadow-xl"
+          ? "py-6 max-lg:bg-[#5416E9] max-lg:bg-opacity-20 max-lg:backdrop-blur-xl max-lg:shadow-xl"
           : "py-3 bg-[#5416E9] bg-opacity-20 backdrop-blur-xl shadow-xl"
       } transition-all duration-500 ease-in-out`}
     >
@@ -82,7 +82,7 @@ export default function Header() {
         </div>
       </nav>
       {navOpen && (
-        <div className="absolute inset-x-0 top-[100%] bg-[#5416E9] bg-opacity-20 backdrop-blur-xl shadow-xl">
+        <div className="absolute inset-x-0 top-[100%] bg-blue-900 shadow-xl">
           <div className="container py-4 flex flex-col items-center gap-4">
             <NavLinks />
             <Link href={`/`}>
