@@ -42,6 +42,10 @@ h6 {
   @apply font-syne;
 }
 
+input {
+  @apply bg-transparent border-b outline-none
+}
+
 .container {
   @apply w-11/12 lg:w-10/12 3xl:w-8/12 mx-auto;
 }
@@ -67,7 +71,5 @@ h6 {
 }
 
 .banner-pagination .swiper-pagination-bullet{
-  width: 10px;
-  height: 10px;
-  background-color: var(--primary-text);
+  @apply w-[10px] h-[10px] bg-white
 }
