@@ -8,17 +8,17 @@ import { motion } from "framer-motion";
 export default function Working() {
   const lists = [
     {
-      img: "/imgs/Graphic_Elements.png",
+      img: "/imgs/Working1.png",
       title: "Ideation & Planning",
       des: "In this phase, we delve deep into your vision. We conduct in-depth discussions, gathering insights to understand your goals and objectives and provide effective guidance.",
     },
     {
-      img: "/imgs/Graphic_Elements.png",
+      img: "/imgs/Working2.png",
       title: "Development & Iteration",
       des: "Once the blueprint is ready, our skilled developers and designers take charge. Utilizing the latest technologies and methodologies, we transform concepts into tangible digital experiences.",
     },
     {
-      img: "/imgs/Graphic_Elements.png",
+      img: "/imgs/Working3.png",
       title: "Deployment & Optimization",
       des: "The culmination of our collaborative effort leads to the deployment phase. Here, your project goes live, reaching your audience and making an impact. ",
     },
