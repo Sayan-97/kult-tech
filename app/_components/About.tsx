@@ -21,7 +21,7 @@ export default function About() {
             About Kult Technologies
           </h1>
           <p className="text-[1.125rem] lg:w-[70%]">
-            We have harnessed the power of Generative AI to create mesmerizing, unique content that pushes the boundaries of creativity. From generating intricate artworks to crafting immersive storytelling experiences, our expertise in Generative AI has redefined what's possible.
+            We have harnessed the power of Generative AI to create mesmerizing, unique content that pushes the boundaries of creativity. From generating intricate artworks to crafting immersive storytelling experiences, our expertise in Generative AI has redefined what is possible.
           </p>
           <Button name={`Learn More`} />
         </div>
