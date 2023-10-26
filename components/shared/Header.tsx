@@ -67,21 +67,21 @@ export default function Header() {
           height={37}
           priority={true}
         />
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <NavLinks />
-        </div>
-        <Link href={`/`} className="hidden lg:block">
+        </div> */}
+        <Link href={`#contact`}>
           <Button name="Contact Us" />
         </Link>
-        <div className="block lg:hidden text-3xl">
+        {/* <div className="block lg:hidden text-3xl">
           {!navOpen ? (
             <MdOutlineMenu onClick={() => setNavOpen(true)} />
           ) : (
             <MdOutlineClose onClick={() => setNavOpen(false)} />
           )}
-        </div>
+        </div> */}
       </nav>
-      {navOpen && (
+      {/* {navOpen && (
         <div className="absolute inset-x-0 top-[100%] bg-blue-900 shadow-xl">
           <div className="container py-4 flex flex-col items-center gap-4">
             <NavLinks />
@@ -90,7 +90,7 @@ export default function Header() {
             </Link>
           </div>
         </div>
-      )}
+      )} */}
     </header>
   );
 }

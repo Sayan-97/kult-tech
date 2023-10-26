@@ -2,8 +2,9 @@
 
 import SecHeader from "@/components/shared/SecHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
+import 'swiper/css/navigation'
 import "swiper/css/pagination";
 import Image from "next/image";
 import ServicesImg1 from "../../public/imgs/Services1.png";
@@ -18,27 +19,27 @@ export default function Services() {
     {
       image: ServicesImg2,
       title: "Next-Gen Game Development",
-      des: "We develop solutions both from technical specifications and from scratch, transforming your ideas into a stylish UX with power under the hood.",
+      des: "Explore the future of gaming in our Next-Gen Game Development section. Discover emerging technologies, cutting-edge graphics, AI innovations, and more.",
     },
     {
       image: ServicesImg1,
       title: "Web 3 & Blockchain",
-      des: "We develop solutions both from technical specifications and from scratch, transforming your ideas into a stylish UX with power under the hood.",
+      des: "Explore the transformative potential of decentralised technologies. Dive into the world of blockchain, cryptocurrencies, NFTs, and decentralised applications.",
     },
     {
       image: ServicesImg3,
       title: "Ai Machine Learning",
-      des: "We develop solutions both from technical specifications and from scratch, transforming your ideas into a stylish UX with power under the hood.",
+      des: "Discover the power of data-driven decision-making, automation, and intelligent systems. Stay informed about the latest advancements, trends, and practical applications of AI.",
     },
     {
       image: ServicesImg4,
-      title: "Crypto Marketing",
+      title: "Branding & Designing",
       des: "We develop solutions both from technical specifications and from scratch, transforming your ideas into a stylish UX with power under the hood.",
     },
     {
       image: ServicesImg5,
-      title: "Market Making",
-      des: "We develop solutions both from technical specifications and from scratch, transforming your ideas into a stylish UX with power under the hood.",
+      title: "Crypto Marketing & Market Making",
+      des: "Dive into the dynamic world of digital currencies, ICOs, DeFi, and NFTs. Stay up-to-date with the latest marketing strategies, case studies, and expert insights in the blockchain industry. ",
     },
   ];
 
@@ -56,7 +57,7 @@ export default function Services() {
           des="We offer many types of account on the platform"
         />
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Navigation]}
           spaceBetween={50}
           pagination={{
             el: ".my-custom-pagination",

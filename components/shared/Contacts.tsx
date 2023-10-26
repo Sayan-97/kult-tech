@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Contacts() {
   return (
-    <section className="py-12 md:py-20">
+    <section id="contact" className="py-12 md:py-20">
       <motion.div
         initial={{ y: 5, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -16,25 +16,25 @@ export default function Contacts() {
         viewport={{ once: true }}
         className="container grid lg:grid-cols-2 gap-8 items-center"
       >
-        <div className="space-y-4">
+        <div className="space-y-8">
           <h2 className="text-4xl md:text-6xl font-bold leading-tight">
             OUR
             <br /> CONTACTS
           </h2>
           <div className="space-y-2">
-            <p>
+            {/* <p>
               Telegram:{" "}
               <span className="opacity-60">@kult_Technologies2023</span>
-            </p>
+            </p> */}
             <p>
               Email:{" "}
               <span className="opacity-60">
-                clients@kult_Technologies2023.com
+                Info@kult.games
               </span>
             </p>
-            <p>
+            {/* <p>
               Skype: <span className="opacity-60"> live:1234659879</span>
-            </p>
+            </p> */}
           </div>
           {/* <div className="space-y-2">
             <h4>GET SOCIAL</h4>

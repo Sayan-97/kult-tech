@@ -44,7 +44,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-[4rem] leading-tight font-bold">
             Navigating the world of blockchain
           </h1>
-          <p className="text-[1.125rem]">
+          <p className="text-[1.125rem] lg:w-[80%]">
             In our digital world, trust, security, and efficiency are vital.
             Enter blockchaintechnology, the game-changer.
           </p>

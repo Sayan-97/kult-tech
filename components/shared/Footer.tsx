@@ -30,7 +30,7 @@ export default function Footer() {
     ]
 
     const reachUs = [
-        { img: MailIcon, content: 'hello@kult_tecnologies.co' },
+        { img: MailIcon, content: 'info@kult.games' },
         { img: PhoneIcon, content: '+91 98765 43210' },
         { img: LocationIcon, content: '772 Lyonwood Ave Walnut, CA 91789' },
     ]
@@ -46,14 +46,14 @@ export default function Footer() {
                         width={123}
                         height={37}
                     />
-                    <p className="font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis facere est dolorum, sed et necessitatibus omnis rerum delectus, saepe corrupti laborum mollitia tempore perspiciatis! Qui ipsa exercitationem eius rem rerum.</p>
-                    <div className="flex items-center gap-6">
+                    <p className="font-medium">At Kult Technologies, we believe in a systematic and collaborative approach to bring your ideas to fruition. Our working process is streamlined into three seamless phases, ensuring transparency, creativity, and innovation at every step of your project.</p>
+                    {/* <div className="flex items-center gap-6">
                         {socials.map((item, index) => (
                             <div key={index} className="bg-white bg-opacity-30 p-2 rounded-full text-2xl">
                                 {item.img}
                             </div>
                         ))}
-                    </div>
+                    </div> */}
                 </div>
                 {/* Quick Links */}
                 <div className="space-y-8">

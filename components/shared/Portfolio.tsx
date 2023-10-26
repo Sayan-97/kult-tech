@@ -15,22 +15,22 @@ export default function Portfolio() {
     {
       img: Img1,
       title: "Generative AI",
-      des: "We provide comprehensive mobile game solutions for iOS and Android platforms. Being a top game development agency, we assure well-designed, ",
+      des: "Unearth the magic of algorithms that can produce art, music, and text autonomously. Dive into the world of generative models like GANs and explore their applications in art, entertainment, and beyond.",
     },
     {
       img: Img2,
       title: "Interactive AI",
-      des: "We provide comprehensive mobile game solutions for iOS and Android platforms. Being a top game development agency, we assure well-designed, ",
+      des: "Explore how AI is transforming user experiences through chatbots, virtual assistants, and personalised recommendations. Discover the future of human-computer interactions as we delve into the world of Interactive AI.",
     },
     {
       img: Img1,
       title: "Generative AI",
-      des: "We provide comprehensive mobile game solutions for iOS and Android platforms. Being a top game development agency, we assure well-designed, ",
+      des: "Unearth the magic of algorithms that can produce art, music, and text autonomously. Dive into the world of generative models like GANs and explore their applications in art, entertainment, and beyond.",
     },
     {
       img: Img2,
       title: "Interactive AI",
-      des: "We provide comprehensive mobile game solutions for iOS and Android platforms. Being a top game development agency, we assure well-designed, ",
+      des: "Explore how AI is transforming user experiences through chatbots, virtual assistants, and personalised recommendations. Discover the future of human-computer interactions as we delve into the world of Interactive AI.",
     },
   ];
 

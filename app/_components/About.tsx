@@ -21,10 +21,7 @@ export default function About() {
             About Kult Technologies
           </h1>
           <p className="text-[1.125rem] lg:w-[70%]">
-            We craft secure, scalable, and engaging blockchain solutions
-            tailored to your unique needs. From tokenomics to decentralized
-            applications (DApps), we harness the power of blockchain technology
-            to transform your digital vision into a reality.
+            We've harnessed the power of Generative AI to create mesmerizing, unique content that pushes the boundaries of creativity. From generating intricate artworks to crafting immersive storytelling experiences, our expertise in Generative AI has redefined what's possible.
           </p>
           <Button name={`Learn More`} />
         </div>
