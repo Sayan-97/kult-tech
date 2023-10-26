@@ -38,7 +38,7 @@ export default function Footer() {
     return (
         <footer className="relative bg-cover pt-8" style={{ backgroundImage: `url(${'/imgs/BGWave.png'})` }}>
             <div className="absolute inset-0 bg-primaryGradient opacity-70"></div>
-            <div className="relative container flex items-start justify-between gap-12 py-6">
+            <div className="relative container flex max-md:flex-col items-start justify-between gap-12 py-6">
                 <div className="w-1/4 space-y-8">
                     <Image
                         src={`/svgs/kult-brand.svg`}
