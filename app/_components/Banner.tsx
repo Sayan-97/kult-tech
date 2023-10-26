@@ -18,27 +18,27 @@ export default function Banner() {
         {
             image: Avatar5,
             name: 'Benjamin Collins',
-            msg: 'Lorem ipsum dolor sit amet consectetur. Commodo iaculis commodo at sed quam aenean purus vitae sagittis. Nisi sollicitudin pretium sapien commodo. Lorem ipsum dolor sit amet consectetur. Commodo iaculis'
+            msg: 'This website is a game-changer for game developers like me. The AI tools and blockchain integration make game development a breeze. I have learned so much and even sold my first NFT. The community support is outstanding!'
         },
         {
             image: Avatar2,
             name: 'James Johnson',
-            msg: 'Lorem ipsum dolor sit amet consectetur. Commodo iaculis commodo at sed quam aenean purus vitae sagittis. Nisi sollicitudin pretium sapien commodo. Lorem ipsum dolor sit amet consectetur. Commodo iaculis'
+            msg: 'I have been exploring blockchain and NFTs for a while now, and this website seemed promising. The resources are quite helpful, but I wish there were more in-depth tutorials on smart contracts. It is a good starting point for beginners, though.'
         },
         {
             image: Avatar3,
             name: 'Ethan Williams',
-            msg: 'Lorem ipsum dolor sit amet consectetur. Commodo iaculis commodo at sed quam aenean purus vitae sagittis. Nisi sollicitudin pretium sapien commodo. Lorem ipsum dolor sit amet consectetur. Commodo iaculis'
+            msg: 'Excellent platform for AI enthusiasts. The courses and articles on AI implementation are well-structured. It has been a great learning experience. The community discussions add value, and I am looking forward to more advanced content.'
         },
         {
             image: Avatar4,
             name: 'Liam Davis',
-            msg: 'Lorem ipsum dolor sit amet consectetur. Commodo iaculis commodo at sed quam aenean purus vitae sagittis. Nisi sollicitudin pretium sapien commodo. Lorem ipsum dolor sit amet consectetur. Commodo iaculis'
+            msg: 'I can nott get enough of this site! It iss not just about NFTs; it is a treasure trove of information on digital art, collectibles, and blockchain technology. I have found some amazing NFT artists here, and the marketplace is a hidden gem.'
         },
         {
             image: Avatar,
             name: 'Noah Harris',
-            msg: 'Lorem ipsum dolor sit amet consectetur. Commodo iaculis commodo at sed quam aenean purus vitae sagittis. Nisi sollicitudin pretium sapien commodo. Lorem ipsum dolor sit amet consectetur. Commodo iaculis'
+            msg: 'As a beginner in the blockchain world, I thought this website would be my go-to resource. It has a lot of information, but it is overwhelming for someone like me. I wish there were more step-by-step guides and interactive tutorials.'
         },
     ]
 
