@@ -31,15 +31,15 @@ export default function Footer() {
 
     const reachUs = [
         { img: MailIcon, content: 'info@kult.games' },
-        { img: PhoneIcon, content: '+91 98765 43210' },
-        { img: LocationIcon, content: '772 Lyonwood Ave Walnut, CA 91789' },
+        { img: PhoneIcon, content: '+971521129279' },
+        { img: LocationIcon, content: 'Dubai, Trade Center' },
     ]
 
     return (
         <footer className="relative bg-cover pt-8" style={{ backgroundImage: `url(${'/imgs/BGWave.png'})` }}>
             <div className="absolute inset-0 bg-primaryGradient opacity-70"></div>
-            <div className="relative container grid md:grid-cols-2 lg:grid-cols-4 gap-12 py-6">
-                <div className="space-y-8">
+            <div className="relative container flex items-start justify-between gap-12 py-6">
+                <div className="w-1/4 space-y-8">
                     <Image
                         src={`/svgs/kult-brand.svg`}
                         alt='img'
@@ -56,25 +56,25 @@ export default function Footer() {
                     </div> */}
                 </div>
                 {/* Quick Links */}
-                <div className="space-y-8">
+                {/* <div className="space-y-8">
                     <h4 className="text-[1.5rem] font-medium">Quick Links</h4>
                     <ul className="space-y-4">
                         {quickLinks.map((item, index) => (
                             <li key={index} className='text-medium'>{item.label} {item.highlight && (<span>{item.highlight}</span>)}</li>
                         ))}
                     </ul>
-                </div>
+                </div> */}
                 {/* Services */}
-                <div className="space-y-8">
+                {/* <div className="space-y-8">
                     <h4 className="text-[1.5rem] font-medium">Services</h4>
                     <ul className="space-y-4">
                         {services.map((item, index) => (
                             <li key={index} className='text-medium'>{item.label}</li>
                         ))}
                     </ul>
-                </div>
+                </div> */}
                 {/* Reach Us */}
-                <div className="space-y-8">
+                <div className="w-1/4 space-y-8">
                     <h4 className="text-[1.5rem] font-medium">Reach Us</h4>
                     <div className="space-y-6">
                         {reachUs.map((item, index) => (
